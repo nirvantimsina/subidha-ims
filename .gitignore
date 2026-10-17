@@ -1,0 +1,66 @@
+##   .gitignore for .NET (C# / F# / VB.NET)   ##
+
+# Old build artifacts
+[Bb]in/
+[Oo]bj/
+[Ex]e/
+
+# Generated folders
+artifacts/
+publish/
+
+# MSBuild temporary files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files and cache
+.vs/
+*.patch
+*.userprefs
+_ReSharper*/
+*.DotExclusionFinder.ResourceGroup
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.targets
+
+# Visual Studio Code configuration
+.vscode/
+!.vscode/extensions.json
+.history/
+.ionide/
+
+# OmniSharp (C# Extension)
+.omnisharp/
+
+# JetBrains Rider configuration
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+# Include/Exclude package folders depending on project layout
+**/packages/
+!**/packages/repositories.config
+**/Paket.Restore.targets
+
+# Crash reports and crash dumps
+*.stackdump
+*.dmp
+
+# Local user appsettings overrides (Crucial for keeping secrets out of GitHub)
+appsettings.Development.json
+appsettings.Local.json
+*.secrets.json
+
+# Rider/Resharper caching
+CompileOutputs/
+_ReSharper.Caches/
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
